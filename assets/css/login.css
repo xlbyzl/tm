@@ -1,0 +1,179 @@
+#app{
+	width:1500px;
+}
+.area{
+	width:1190px;
+	margin:0 auto;
+}
+/*header*/
+.header{
+	height:44px;
+	padding:22px 0;
+	line-height:44px;
+}
+.header img{
+	display:block;
+	width:190px;
+	height:27px;
+	vertical-align:middle;
+}
+/*main*/
+/* #main-wrap{
+	background-color:#FF4644;
+} */
+.main{
+	position:relative;
+	height:600px;
+}
+.main>a{
+	display:block;
+	position:absolute;
+	top:140px;
+	left:50px;
+	width:600px;
+	height:440px;
+}
+.main img{
+	width:100%;
+	height:100%;
+}
+.main .form-wrap,.none-wrap{
+	position:absolute;
+	top:70px;
+	right:50px;
+	width:350px;
+	height:400px;
+	background-color:#fff;
+}
+.main .wp{
+	width:300px;
+	margin:0 auto;
+}
+.main h2.wp{
+	margin-top:40px;
+	font-size:18px;
+}
+.main h2.wp span{
+	display:block;
+}
+.main label{
+	float:left;
+	position:absolute;
+	left:0.2px;
+	top:1px;
+	width:40px;
+	height:38px;
+	overflow:hidden;
+	background-color:#ddd;
+}
+.main .form-wrap .username{
+	position:relative;
+	margin:20px auto;
+}
+.main .username .iconfont{
+	display:block;
+	margin:3px 10px 10px 7px;
+	font-size:25px;
+}
+.main .username input{
+	box-sizing:border-box;
+	padding-left:45px;
+	height:40px;
+	width:300px;
+}
+.form-wrap .login button{
+	border:0;
+	outline:0;
+	color:#fff;
+	font-size:16px;
+	width:300px;
+	height:42px;
+	line-height:42px;
+	background-color:#ff4644;
+	text-align:center;
+	height:40px;
+}
+.form-wrap .icon-erweima2{
+	position:absolute;
+	right:0;
+	top:0;
+	border:0;
+	font-size:60px;
+	color:#FF4644;
+	font-weight:bold;
+}
+.none-wrap{
+	z-index:3;
+	display:block;
+}
+.none .icon-Computer{
+	position:absolute;
+	right:0;
+	top:0;
+	font-size:60px;
+	color:#FF4644;
+	font-weight:bold;
+}
+.main p.wp{
+	margin-top:20px;
+	text-align:right;
+}
+.main p.wp a{
+	display:inline-block;
+}
+.none .code img{
+	display:block;
+	width:140px;
+	height:140px;
+	margin:0 auto;
+}
+.none .text{
+	text-align:center;
+}
+.none .text i{
+	float:left;
+	width:34px;
+	height:36px;
+	padding-left:50px;
+	font-size:26px;
+}
+.none .text p{
+	float:left;
+	line-height:16px;
+}
+.none .text p a{
+	color:#FF4644;
+	display:inline-block;
+	padding:0 5px;
+}
+.none .text .block{
+	display:block;
+}
+/*footer*/
+.tmall-copyright{
+	margin-top:50px;
+}
+.tmall-copyright .one{
+	padding:10px 0;
+}
+.tmall-copyright .two{
+	padding:5px;
+}
+.tmall-copyright .more span{
+	display:inline-block;
+	padding:5px 0;
+	margin-right:20px;
+}
+.tmall-copyright a{
+	color:#999;
+}
+.tmall-copyright p a{
+	color:#000;
+	padding:0 3px 0 2px;
+}
+.tmall-copyright a:hover{
+	text-decoration:underline;
+}
+.tmall-copyright .more .block{
+	display:block;
+}
